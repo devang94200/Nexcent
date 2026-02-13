@@ -1,0 +1,125 @@
+@media (max-width:992px){
+    .logo img {
+        width: 100%;
+    }
+    .hero-title p {
+        font-size: 12px;
+    }
+    .header-cta.login{
+        display: none;
+    }
+    .header-cta.signup{
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+   .about-logo ul {
+        gap: 100px;
+   }
+    .hero-left {
+        width: 100%;
+    }
+    .hero-title h1 {
+        font-size: 55px;
+    }
+    .hero-right {
+        width: 100%;
+    }
+    .hero-image{
+        width: 80%;
+    }
+    .about-logo ul {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .community-row {
+        padding-bottom: 94px;
+    }
+    .last-section {
+	margin-top: 9.6px;
+    }
+    .comma {
+        padding-left:5.25px;
+    }
+    .community-details {
+        width: 280px;
+    }
+    .community-img{
+        width: 100%;
+    }
+    .customer-text h4 {
+        font-size: 16px;
+    }
+    .customer-img {
+        width: 100%;
+    }
+}
+@media (max-width:767px) {
+    .nav-list ul{
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .hero-title h1 {
+        font-size: 45px;
+        width: 70%;
+        line-height: 50px;
+    }
+
+    .community-img {
+        width: 100%;
+    }
+    .hero-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-image{
+        width: 50%;
+    }
+    .comma {
+        padding-left: 20px;
+    }
+    .community-details {
+        width: 180px;
+    }
+    .community-details h4{
+        font-size: 18px;
+    }
+    .community-member {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .achivement-right {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .achivement {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .achivement-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .achivement-right {
+	    width: 100%;
+    }
+}     
